@@ -1,0 +1,28 @@
+# Core AI/LLM dependencies
+openai
+langchain-openai
+langchain
+langchain-core
+pydantic
+
+# Web scraping and browser automation
+playwright
+playwright-stealth
+beautifulsoup4
+
+# Data processing and analysis
+pandas
+extruct
+w3lib
+
+# Image processing
+Pillow
+
+# Environment and configuration
+python-dotenv
+
+# Progress bars and utilities
+tqdm
+
+# Development dependencies (optional)
+pytest
