@@ -4,7 +4,7 @@ This is code repository for AgenticShop: Benchmarking Agentic Product Curation f
 
 📄 **Paper Link**: [**AgenticShop**](https://drive.google.com/file/d/1ZrK7A7az16I9bTVAnrXueytwcTggH48g/view?usp=sharing)
 
-🎉 **Our paper has been accepted Accepted to [The Web Conference 2026](https://www2026.thewebconf.org/index.html)**
+🎉 **Our paper has been accepted Accepted at [The Web Conference 2026](https://www2026.thewebconf.org/index.html)**
 
 ## Introduction
 
