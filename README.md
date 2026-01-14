@@ -12,7 +12,7 @@ AgenticShop is a benchmark for evaluating how well agentic systems curate person
 
 ---
 
-![System Architecture](assets/main.png)
+![System Architecture](assets/overview.png)
 
 
 ## Pipeline
