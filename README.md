@@ -60,58 +60,54 @@ Sample user profile data is available in `data/user_profiles_samples/` to help y
 - `eval_results/` - Evaluation outputs and results
 
 ## Pipeline
-The workflow consists of three main phases:
 
+The workflow consists of three phases. The generated user profiles serve as inputs to agentic systems, which curate product recommendations. The resulting product links are then evaluated against each user's checklist.
 
-**Phase 1 — Benchmark Construction**: Generate user contexts, queries, and evaluation checklists that form the foundation of the benchmark dataset.
+### Phase 1 — Benchmark Construction
 
-- **Input**: `data/user_raw/` (raw purchase histories)
-- **Output**: `data/user_profiles/{domain}_user_profile.json` (final user profiles with queries and checklists)
+Generate user contexts, queries, and evaluation checklists from raw purchase histories.
+
+| | Path |
+|---|---|
+| **Input** | `data/user_raw/` |
+| **Output** | `data/user_profiles/{domain}_user_profile.json` |
+
+The output user profiles contain user contexts (shopping preferences, situation, budget), queries, and evaluation checklists.
 
 ```bash
-# Step 1: Generate diverse user contexts with shopping preferences and behaviors
 python src/benchmark_construction/1_gen_user_context.py --domain clothing --samples 1
-
-# Step 2: Create realistic user queries based on the generated contexts
 python src/benchmark_construction/2_gen_user_query.py --domain clothing --samples 1
-
-# Step 3: Build evaluation checklists tailored to each user's preferences
 python src/benchmark_construction/3_gen_user_checklist.py --domain clothing --samples 1
-
-# Step 4: Organize outputs into final user profiles
 python src/benchmark_construction/4_organize_user_profile.py --domain clothing
 ```
 
-The generated user profiles — including shopping queries — serve as inputs to agentic systems, which curate product recommendations. The resulting product links are then evaluated against the user's checklist.
+### Phase 2 — Product Curation
 
-**Phase 2 — Product Curation**: Prepare search inputs from user profiles and run agentic systems to curate products. We provide a GPT search script as an example — any agentic system can be used in its place.
+Prepare search inputs from user profiles and run agentic systems to curate products. We provide a GPT search script as an example — any agentic system can be used in its place.
 
-- **Input**: `data/user_profiles/{domain}_user_profile.json`
-- **Output**:
-  - `product_curation_artifacts/inputs/{category}_search_input.json` (search prompts and evaluation checklists)
-  - `product_curation_artifacts/{model_type}/{model_name}/{category}_search_input_output.json` (curated product URLs)
+| | Path |
+|---|---|
+| **Input** | `data/user_profiles/{domain}_user_profile.json` |
+| **Output** | `product_curation_artifacts/inputs/{category}_search_input.json` |
+| **Output** | `product_curation_artifacts/{model_type}/{model_name}/{category}_search_input_output.json` |
 
 ```bash
-# Step 1: Build search prompts from user profiles
 python src/search_llms_scripts/prepare_search_input.py data/user_profiles/clothing_user_profile.json
-
-# Step 2: Run search LLM to curate products (example using GPT)
 python src/search_llms_scripts/gpt_search.py --category clothing --samples 1
 ```
 
-**Phase 3 — Benchmark Evaluation**: Run the evaluation pipeline to extract product information and score against user checklists.
+### Phase 3 — Benchmark Evaluation
 
-- **Input**: `product_curation_artifacts/` (user checklists and curated product URLs)
-- **Output**: `eval_results/{model_type}/{model_name}/{category}/user_{id}/result_{N}/` containing:
-  - `extraction_result.json` — extracted product attributes
-  - `evaluation_result.json` — checklist satisfaction scores across 6 dimensions
+Extract product information from curated URLs and score against user checklists across 6 dimensions.
+
+| | Path |
+|---|---|
+| **Input** | `product_curation_artifacts/` |
+| **Output** | `eval_results/{model_type}/{model_name}/{category}/user_{id}/result_{N}/` |
+
+Each result directory contains `extraction_result.json` (extracted product attributes) and `evaluation_result.json` (checklist satisfaction scores).
 
 ```bash
-# Run complete evaluation pipeline with example parameters:
-# --model-type: Type of model (search_llms or web_agents)
-# --model-name: Specific model name (gpt, claude, etc.)
-# --category: Product category (clothing, electronics, home, etc.)
-# --num-users: Number of users to evaluate
 python src/benchmark_evaluation/run_pipeline.py \
   --model-type search_llms \
   --model-name gpt \
