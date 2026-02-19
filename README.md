@@ -67,12 +67,10 @@ The workflow consists of three phases. The generated user profiles serve as inpu
 
 Generate user contexts, queries, and evaluation checklists from raw purchase histories.
 
-| | Path |
-|---|---|
-| **Input** | `data/user_raw/` |
-| **Output** | `data/user_profiles/{domain}_user_profile.json` |
-
-The output user profiles contain user contexts (shopping preferences, situation, budget), queries, and evaluation checklists.
+| | Path | Description |
+|---|---|---|
+| **Input** | `data/user_raw/` | Raw purchase histories |
+| **Output** | `data/user_profiles/{domain}_user_profile.json` | User contexts, queries, and evaluation checklists |
 
 ```bash
 python src/benchmark_construction/1_gen_user_context.py --domain clothing --samples 1
@@ -85,11 +83,11 @@ python src/benchmark_construction/4_organize_user_profile.py --domain clothing
 
 Prepare search inputs from user profiles and run agentic systems to curate products. We provide a GPT search script as an example — any agentic system can be used in its place.
 
-| | Path |
-|---|---|
-| **Input** | `data/user_profiles/{domain}_user_profile.json` |
-| **Output** | `product_curation_artifacts/inputs/{category}_search_input.json` |
-| **Output** | `product_curation_artifacts/{model_type}/{model_name}/{category}_search_output.json` |
+| | Path | Description |
+|---|---|---|
+| **Input** | `data/user_profiles/{domain}_user_profile.json` | User profiles from Phase 1 |
+| **Output** | `product_curation_artifacts/inputs/{category}_search_input.json` | Search prompts and evaluation checklists |
+| **Output** | `product_curation_artifacts/{model_type}/{model_name}/{category}_search_output.json` | Curated product URLs per user |
 
 ```bash
 python src/search_llms_scripts/prepare_search_input.py data/user_profiles/clothing_user_profile.json
@@ -100,12 +98,10 @@ python src/search_llms_scripts/gpt_search.py --category clothing --samples 1
 
 Extract product information from curated URLs and score against user checklists across 6 dimensions.
 
-| | Path |
-|---|---|
-| **Input** | `product_curation_artifacts/` |
-| **Output** | `eval_results/{model_type}/{model_name}/{category}/user_{id}/result_{N}/` |
-
-Each result directory contains `extraction_result.json` (extracted product attributes) and `evaluation_result.json` (checklist satisfaction scores).
+| | Path | Description |
+|---|---|---|
+| **Input** | `product_curation_artifacts/` | User checklists and curated product URLs |
+| **Output** | `eval_results/{...}/{category}/user_{id}/result_{N}/` | `N`-th curated product's extraction and evaluation results |
 
 ```bash
 python src/benchmark_evaluation/run_pipeline.py \
