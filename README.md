@@ -15,41 +15,6 @@ AgenticShop is a benchmark for evaluating how well agentic systems curate person
 ![System Architecture](assets/overview.png)
 
 
-## Pipeline
-The workflow consists of two main phases:
-
-
-**Benchmark Construction**: Generate user contexts, queries, and evaluation checklists that form the foundation of the benchmark dataset.
-
-```bash
-# Step 1: Generate diverse user contexts with shopping preferences and behaviors
-python src/benchmark_construction/1_gen_user_context.py --domain clothing --samples 1
-
-# Step 2: Create realistic user queries based on the generated contexts
-python src/benchmark_construction/2_gen_user_query.py --domain clothing --samples 1
-
-# Step 3: Build evaluation checklists tailored to each user's preferences
-python src/benchmark_construction/3_gen_user_checklist.py --domain clothing --samples 1
-
-# Step 4: Organize outputs into final user profiles
-python src/benchmark_construction/4_organize_user_profile.py --domain clothing
-```
-
-**Benchmark Evaluation**: Run the evaluation pipeline to test different models and approaches against the constructed benchmark, measuring their performance in product curation tasks.
-
-```bash
-# Run complete evaluation pipeline with example parameters:
-# --model-type: Type of model (search_llms or web_agents)
-# --model-name: Specific model name (gpt, claude, etc.)
-# --category: Product category (clothing, electronics, home, etc.)
-# --num-users: Number of users to evaluate
-python src/benchmark_evaluation/run_pipeline.py \
-  --model-type search_llms \
-  --model-name gpt \
-  --category clothing \
-  --num-users 1
-```
-
 ## Setup
 
 ### 1. Create Python Virtual Environment
@@ -70,15 +35,61 @@ cp env.example .env.local
 # Edit .env.local and add your OpenAI API key
 ```
 
-### 4. Project Structure
+## Data
+
+Raw purchase history data is provided in `data/user_raw/` for benchmark construction:
+
+| Domain | Users |
+|--------|-------|
+| Clothing | 104 |
+| Electronics | 83 |
+| Home | 80 |
+| Grocery | 50 |
+| Open | 50 |
+
+Our dataset is built upon the well-established [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/) dataset and can be expanded to additional users and domains it supports.
+
+Sample user profile data is available in `data/user_profiles_samples/` to help you get started with the benchmark.
+
+## Project Structure
 - `src/benchmark_construction/` - Scripts for generating benchmark data
 - `src/benchmark_evaluation/` - Evaluation framework and modules
 - `eval_inputs/` - Input data for evaluation
 - `eval_results/` - Evaluation outputs and results
 
-## Data
+## Pipeline
+The workflow consists of two main phases:
 
-Sample user profile data is available in `data/user_profiles_samples/` to help you get started with the benchmark. This includes:
 
-- Pre-generated user contexts and queries
-- Sample evaluation checklists
+**Benchmark Construction**: Generate user contexts, queries, and evaluation checklists that form the foundation of the benchmark dataset.
+
+```bash
+# Step 1: Generate diverse user contexts with shopping preferences and behaviors
+python src/benchmark_construction/1_gen_user_context.py --domain clothing --samples 1
+
+# Step 2: Create realistic user queries based on the generated contexts
+python src/benchmark_construction/2_gen_user_query.py --domain clothing --samples 1
+
+# Step 3: Build evaluation checklists tailored to each user's preferences
+python src/benchmark_construction/3_gen_user_checklist.py --domain clothing --samples 1
+
+# Step 4: Organize outputs into final user profiles
+python src/benchmark_construction/4_organize_user_profile.py --domain clothing
+```
+
+The generated user profiles — including shopping queries — serve as inputs to agentic systems, which curate product recommendations. The resulting product links are then evaluated against the user's checklist.
+
+**Benchmark Evaluation**: Run the evaluation pipeline to test different models and approaches against the constructed benchmark, measuring their performance in product curation tasks.
+
+```bash
+# Run complete evaluation pipeline with example parameters:
+# --model-type: Type of model (search_llms or web_agents)
+# --model-name: Specific model name (gpt, claude, etc.)
+# --category: Product category (clothing, electronics, home, etc.)
+# --num-users: Number of users to evaluate
+python src/benchmark_evaluation/run_pipeline.py \
+  --model-type search_llms \
+  --model-name gpt \
+  --category clothing \
+  --num-users 1
+```
