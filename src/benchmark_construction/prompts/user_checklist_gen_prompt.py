@@ -37,13 +37,12 @@ user_budget: {user_budget}
 ### Generation Guidelines
 - Tailor the checklist to the user’s specific context, situation, and budget.
 - Base all criteria strictly on the provided user_context, without introducing new assumptions, factors, numbers, standards, etc.
-- Ensure each criterion is objectively verifiable through observable, measurable, or documented product information.
-- Write every criterion as a clear, quantifiable, and decision-oriented statement, avoiding abstract or interpretive wording.
-- Exclude binary markers such as “yes/no.”
+- Ensure each criterion is verifiable from product details, specifications, or reviews — avoid vague qualifiers (e.g., 'good', 'nice') that cannot be concretely assessed.
+- Write every criterion as a clear, specific, and decision-oriented statement, avoiding abstract or interpretive wording.
+- Do not append binary markers (e.g., 'yes/no') to criteria.
 - Keep each criterion self-contained and independent, providing sufficient context for accurate evaluation.
-- Generate distinct, non-overlapping criteria per dimension.
+- Generate distinct, non-overlapping criteria both within and across dimensions. Do not re-evaluate the same feature under a different dimension.
 - Prioritize essential, decision-guiding factors that allow unambiguous evaluation.
-- Remove any redundant or repetitive criteria.
 - Provide 1–5 criteria per dimension, focusing solely on cues relevant to that dimension.
 
 ### Output Format:

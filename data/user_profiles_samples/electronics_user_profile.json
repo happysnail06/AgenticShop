@@ -1,0 +1,253 @@
+[
+    {
+        "user": "AEO3KP7K6HMIIIHSC3B6B7KX3UOQ",
+        "seed_product_type": "Vehicle Mounts",
+        "situation": "Needs a reliable GPS dashboard mount for daily driving across multiple vehicles.",
+        "budget_range": "around $15\u2013$25",
+        "query_type": "categorical",
+        "user_query": "want to find a dashboard mount for my GPS",
+        "user_context": {
+            "brand_preferences": "This shopper shows strong loyalty to RAM MOUNTS: 10 of the 11 purchases are RAM products, and reviews reference buying multiple RAM components (bases, arms, cradles) for different vehicles and uses. They repeatedly choose RAM for its lifetime warranty, U.S. manufacture, and product family compatibility (ball-and-socket system). ChargerCity appears only once as an acceptable alternative for a specific Garmin friction mount, but RAM is the clear preferred and trusted brand for mounting hardware and accessories.",
+            "price_sensitivity": "The user demonstrates medium price sensitivity. They consistently buy mid-priced mounting hardware (typical purchases fall between about $10 and $65) and will pay higher prices when the product offers durability, warranty, or specific functionality (e.g., marine-grade materials, large X\u2011Grip). They favor value over the absolute lowest cost \u2014 willing to spend up to ~$66 for proven quality but also routinely purchases economical parts (~$10\u2013$25) when they meet functional needs.",
+            "rating_sensitivity": "The user favors well-rated products and generally selects items with high average ratings (most listed items have ratings in the 4.4\u20134.8 range). Their own ratings are nearly all 5-star (one 4-star), indicating they expect high performance and are satisfied when products meet advertised claims. This indicates high-to-medium review sensitivity: they prefer top-rated items (4+ stars) and likely use reviews and average ratings as a key part of decision-making.",
+            "functional_requirements": "For mounting hardware this user consistently requires: compatibility with a modular ball-and-socket ecosystem (interchangeable bases, arms, and cradles), secure attachment across many platforms (windshield suction, bolt-on, strap/clamp, handlebar/roll bar), durable construction that resists vibration and harsh conditions (marine-grade aluminum, stainless steel, high-strength composite), reliable device retention for phones, GPS units and cameras, and included mounting hardware or clear instructions so components can be installed across cars, motorcycles, bicycles, kayaks and track rigs.",
+            "aesthetic_preferences": "The user prefers utilitarian, low-profile designs in neutral colors \u2014 nearly all items are black and described as painted, powder-coated or matte finishes. Visual choices favor rugged, industrial styling (exposed hardware, diamond ball bases, short or stubby low\u2011profile arms) rather than decorative or flashy designs. Portability and unobtrusiveness (removable arms, compact cradles) are preferred over decorative elements.",
+            "purchase_preferences": "This buyer values manufacturer reliability, clear compatibility information, and strong warranty coverage (lifetime warranty cited repeatedly). They prefer products that include needed hardware and straightforward installation options (hardware included, removable components) and tolerate a variety of mounting/fulfillment methods (suction, bolt, strap). They also appreciate frustration\u2011free packaging (noted once) and U.S. manufacturing claims. While shipping speed and returns are not explicitly mentioned, their emphasis on warranty, build quality and correct fit indicates they prioritize seller/manufacturer trustworthiness and comprehensive product details over expedited shipping or liberal return behavior."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Product listing identifies RAM MOUNTS as the manufacturer or lists RAM-compatible model numbers more than alternative brands",
+                "If not RAM, the product description explicitly references ChargerCity only for a specific compatible Garmin friction mount"
+            ],
+            "price_sensitivity": [
+                "Product price falls within $15\u2013$25 target budget",
+                "If price exceeds $25, product documentation justifies higher cost by listing marine-grade materials, lifetime warranty, or demonstrable added durability"
+            ],
+            "rating_sensitivity": [
+                "Product has an average customer rating of 4.0 stars or higher",
+                "Product detail page includes multiple recent customer reviews describing long-term reliability or durability"
+            ],
+            "functional_requirements": [
+                "Product explicitly states compatibility with modular ball-and-socket systems (specifies ball size or RAM compatibility)",
+                "Product provides at least one of the following mounting bases: suction, bolt-on, or strap/clamp (exact base types listed)",
+                "Product materials are specified as marine-grade aluminum, stainless steel, or high-strength composite in the specifications",
+                "Product description or package contents include necessary mounting hardware or a clear list of included components for multi-vehicle installation"
+            ],
+            "aesthetic_preferences": [
+                "Product color is listed as a neutral finish (black, matte, painted, or powder-coated) in the specifications",
+                "Product images and dimensions show a low-profile, utilitarian design (compact arm/cradle length or low-profile height stated)"
+            ],
+            "purchase_preferences": [
+                "Product listing specifies lifetime warranty or equivalent manufacturer warranty duration",
+                "Product page provides clear compatibility information (explicit vehicle/platform examples or a compatibility chart)",
+                "Product packaging or listing notes included hardware and installation instructions in the product details"
+            ]
+        }
+    },
+    {
+        "user": "AG65O2UTMITNHX3QK2U2C4KP5T2A",
+        "seed_product_type": "Batteries",
+        "situation": "Needs a reliable replacement battery for an older Dell Latitude laptop.",
+        "budget_range": "around $30\u2013$45",
+        "query_type": "categorical",
+        "user_query": "need to buy a laptop battery replacement",
+        "user_context": {
+            "brand_preferences": "This user consistently buys third-party laptop battery brands rather than OEMs and shows clear loyalty to vendors that have proven reliable over time. Dentsing appears repeatedly and is explicitly praised for consistent performance and responsive warranty service, making it a preferred brand; DTK and a few others (Gomarty, ECHEER, ANTIEE) are treated as acceptable when their units match OEM behavior. The user prefers sellers that clearly label their product brand (avoids ambiguous/knock-off listings) and will re-purchase from a brand after multiple satisfactory outcomes, signaling relationship-driven loyalty once a brand earns trust.",
+            "price_sensitivity": "The user is price-conscious but not price-driven \u2014 they avoid expensive OEM replacements (often >$100) and routinely opts for third-party batteries in the $19\u2013$46 range to save money. However, they are willing to pay slightly more for brands that demonstrate consistent longevity and reliable performance, so their sensitivity is medium: cost matters, but perceived value and lifespan can override low price.",
+            "rating_sensitivity": "The user reads and writes reviews and uses collective customer feedback as an input but not the sole decision maker. They weigh recent reviews and look for consistent track records and post-sale support (warranty/RMA) when forming judgments, so ratings are one of several important factors (medium sensitivity) rather than an absolute filter requiring only 4+ star listings.",
+            "functional_requirements": "For replacement laptop batteries the user requires strict model compatibility (correct P/N and physical fit), correct voltage and cell count to match the OEM specification, dependable capacity and runtime comparable to original batteries, and robust safety features (short-circuit, over-voltage, over-current protection). They also expect reliable charge acceptance and stable current, certification evidence (CE/FCC/RoHS/UL where available), and a seller-backed warranty with clear return or replacement options.",
+            "aesthetic_preferences": "Aesthetics are a low-priority but noted factor: the user prefers batteries that match OEM look and fit \u2014 typical black housings with correct screw hole alignment and properly oriented connectors. They explicitly dislike poor fit-and-finish (misaligned screw holes, twisted/tight connector routing) and favor products that appear well-made and labeled clearly so they can confirm correct model at a glance.",
+            "purchase_preferences": "The user values clear product listings, accurate compatibility information, protective packaging, and dependable seller after-sales service (12-month warranties, 30\u201360 day return windows, and responsive RMA support). Fast, reliable shipping and sellers who promptly authorize refunds or replacements are important; the user is comfortable buying from marketplaces (Amazon) provided the seller stands behind the product and responds quickly via the Orders/contact channels. Ease of installation is treated as laptop-dependent and not a purchase criterion for the battery itself."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Product brand is explicitly listed as Dentsing on the product page or packaging images",
+                "If not Dentsing, product brand is listed as DTK, Gomarty, ECHEER, or ANTIEE (no ambiguous/unnamed brand)",
+                "Seller has at least two prior listings or feedback demonstrating repeat sales under the same brand name and warranty fulfillment"
+            ],
+            "price_sensitivity": [
+                "Product price is listed within the user's budget range ($30\u2013$45)",
+                "Product price is clearly lower than typical OEM replacements (explicit OEM price shown or referenced as >$100) or the listing explains why a premium exists",
+                "A higher-than-budget price is accompanied by verifiable claims of above-average longevity or reliability (documented brand track record or extended warranty)"
+            ],
+            "rating_sensitivity": [
+                "Recent customer reviews mention consistent long-term performance and post-sale support (RMA/warranty experiences)",
+                "Aggregate review narrative shows a consistent track record across multiple purchases rather than relying on a single high rating",
+                "Listing has a meaningful number of recent reviews (reviews dated within the last year) that reference real-world runtime or longevity"
+            ],
+            "functional_requirements": [
+                "Product listing specifies exact OEM part number(s) and/or Dell P/N compatibility that matches the target Latitude model",
+                "Listed battery voltage and cell count exactly match the OEM specifications for the target Latitude model",
+                "Listed capacity (mAh or Wh) is equal to or explicitly stated as comparable to the OEM capacity",
+                "Listing or spec sheet documents safety/protection features (short-circuit, over-voltage, over-current protection) and shows any claimed certifications (CE/FCC/RoHS/UL where available)",
+                "Seller provides a clear warranty with terms for replacement or return (warranty length and RMA process described on the product page)"
+            ],
+            "aesthetic_preferences": [
+                "Product images show a black housing with screw hole alignment and connector orientation matching OEM photos for the same model",
+                "Product labeling is clear and legible in images (brand name and part number printed) and images show proper fit-and-finish (no visible misaligned screw holes or twisted connector routing)"
+            ],
+            "purchase_preferences": [
+                "Product listing includes an explicit compatibility section or table listing the exact Dell Latitude model and P/N",
+                "Listing or seller page documents protective packaging methods or shows packaging photos",
+                "Seller offers a 12-month warranty and a 30\u201360 day return window as stated on the product page",
+                "Seller provides shipment tracking and a stated estimated delivery time on the order page",
+                "Seller contact/RMA process is documented on the listing or seller profile and prior customer feedback shows responsive resolution via the Orders/contact channels"
+            ]
+        }
+    },
+    {
+        "user": "AGKKGFBWDJFYN3UUSJ62XCI42QVQ",
+        "seed_product_type": "External Hard Drives",
+        "situation": "Needs a large external drive for backing up desktop computer files.",
+        "budget_range": "around $450\u2013$550",
+        "query_type": "categorical",
+        "user_query": "need a big external hard drive for backup",
+        "user_context": {
+            "brand_preferences": "This shopper shows a clear affinity for established storage manufacturers, repeatedly buying Seagate and Western Digital products. Purchases alternate between the two brands across form factors (portable WD My Passport and WD_BLACK, and Seagate Backup Plus/Expansion desktop drives), indicating brand trust rather than exclusive loyalty to a single maker. The user values mainstream, well-known vendors with large model lines and visible warranties or recovery services; they repeatedly choose models from these two suppliers rather than unknown or niche brands.",
+            "price_sensitivity": "The user is price-conscious but pragmatic: they actively weigh cost-per-terabyte and practical value. Comments comparing NVMe M.2 performance to much higher NVMe prices show willingness to favor lower-cost HDD options when the incremental performance doesn\u2019t justify the cost. They buy large-capacity desktop drives (12\u201318 TB) and multiple units to get more storage for less money, and they celebrate good deals, so overall sensitivity is medium\u2014price matters, but they will pay more when capacity or reliability offers clear value.",
+            "rating_sensitivity": "The user considers reviews and product ratings as one input among several rather than the sole deciding factor. Their own reviews emphasize hands-on experience (speed, reliability, capacity) and they routinely give high personal ratings, suggesting they validate products through use. They do not appear to demand only top-rated (4+ star) items, but they prefer products with solid community reputations and many positive ratings.",
+            "functional_requirements": "For external storage the user consistently requires large capacity (ranging from portable 2\u20135 TB to desktop 12\u201318 TB), USB connectivity (USB 3.0 preferred for faster transfers), and straightforward plug-and-play compatibility with Windows (with optional reformatting for Mac). They expect reliable sustained transfer speeds (practical throughput ~100+ MB/s for portable drives, faster for desktops), bus-powered operation for portable units, included power adapters/cables for desktop drives, and optional extras such as front USB ports or data recovery/warranty services. Compatibility with gaming consoles and simple backup software are additional common needs.",
+            "aesthetic_preferences": "The user favors simple, understated designs and neutral colors\u2014predominantly black with occasional muted accents (blue or brushed-metal finishes). They prefer compact, palm-sized portable enclosures and clean, minimalist desktop housings rather than flashy or decorative styling. Function-first visual choices (slim profile, brushed metal surface, matte finishes) that communicate durability and professionalism are favored.",
+            "purchase_preferences": "This buyer values low-friction shopping and dependable after-sales support: easy, out-of-box setup (plug-and-play), included cables/adapters, clear warranty lengths, and availability of data-recovery or rescue services. They prefer reputable sellers/manufacturers (store purchases from Seagate and Western Digital), expect reliable shipping and correct accessories in the package, and prioritize seller reliability and warranty terms over fastest possible delivery. Returns are acceptable if the product fails quickly, and long-term peace-of-mind services (multi-year warranties, recovery) influence purchase decisions."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Manufacturer listed as Seagate or Western Digital in the product listing or manufacturer information",
+                "Product model belongs to a mainstream product line (e.g., Backup Plus/Expansion, My Passport, WD_BLACK) as shown in official product naming",
+                "Manufacturer provides visible warranty details and links to official data-recovery or rescue services on the product page"
+            ],
+            "price_sensitivity": [
+                "Total product price falls within the user's budget range of $450\u2013$550 as shown at checkout (excluding taxes/shipping)",
+                "Displayed price-per-terabyte (total price divided by advertised capacity) is competitive versus other same-capacity desktop HDD listings on major retailers"
+            ],
+            "rating_sensitivity": [
+                "Product listing displays an aggregate user rating and multiple independent user reviews available to read",
+                "Recent user reviews include hands-on comments about speed, reliability, and capacity rather than only seller/service remarks"
+            ],
+            "functional_requirements": [
+                "Advertised capacity is within the user\u2019s desktop target range (12\u201318 TB)",
+                "Interface specification lists USB connectivity compatible with USB 3.0 or better",
+                "Product lists expected sustained transfer speeds or benchmarks consistent with desktop HDD performance (practical throughput higher than portable ~100 MB/s)",
+                "Desktop unit includes a dedicated power adapter and the package contents list includes required power cable(s)",
+                "Product page documents Windows plug-and-play compatibility with option or instructions for reformatting for macOS"
+            ],
+            "aesthetic_preferences": [
+                "Product images and description show a simple, minimalist enclosure design (matte or brushed finish) without flashy or decorative styling",
+                "Color options include neutral tones (black or muted accents) and the portable form factor is compact rather than oversized"
+            ],
+            "purchase_preferences": [
+                "Package contents explicitly list included cables/adapters needed for immediate out-of-box use",
+                "Seller or manufacturer page lists clear warranty length and describes warranty/after-sales support terms",
+                "Manufacturer or retailer offers documented data-recovery or rescue service options linked from the product page",
+                "Seller is a reputable source (official manufacturer store or major authorized retailer) with clear shipping and return policies displayed"
+            ]
+        }
+    },
+    {
+        "user": "AGBEBDO6UHV6Y5CT3O3XYOV6WBXQ",
+        "seed_product_type": "Graphics Cards",
+        "situation": "Upgrading the PC with a top-tier graphics card for high-end gaming and creative work.",
+        "budget_range": "around $1900\u2013$2100",
+        "query_type": "categorical",
+        "user_query": "shopping for a powerful new graphics card",
+        "user_context": {
+            "brand_preferences": "This shopper repeatedly buys from major GPU manufacturers and premium sub-brands: Gigabyte AORUS, NVIDIA Founders, ASUS ROG Strix, EVGA, ZOTAC, PowerColor and Sapphire appear across their history. They show brand loyalty to higher-end lines (AORUS, ROG Strix, Founders Edition) when the product meets cooling and build expectations, but they will abandon or heavily criticize brands that deliver poor thermal performance or support (strong negative tone toward ZOTAC and PowerColor Fighter models). They value manufacturers that back products with good warranties and responsive customer service (explicit praise for EVGA), and will pay a premium for respected flagship models while holding lower-tier or \u201clite\u201d versions to a stricter standard.",
+            "price_sensitivity": "Medium sensitivity: the user will buy high-end, expensive parts (including an RTX 4090 at ~ $2,000) and top-tier models, but repeatedly calls out overpaying and scalping and deducts ratings for paying above MSRP. They balance price against thermal performance, noise and longevity; they prefer not to pay large premiums for poorly executed or entry-level variants and appreciate clear value like solid cooling or multi-year warranties when paying more.",
+            "rating_sensitivity": "Medium sensitivity: the user reads and uses product details and community feedback but places more weight on hands-on outcomes (memory temps, noise, cooling quality) and real-world support experiences than on aggregate star scores alone. They accept well-reviewed models but will publicly downgrade or warn about models that show consistent thermal or support failures even if the product has a decent average rating.",
+            "functional_requirements": "For graphics cards this user requires robust cooling and thermal headroom (low memory and core temperatures under load), low acoustic noise, stable performance under mild to moderate overclocking, and durable construction (metal backplate, anti-sag support). They expect sufficient VRAM for their target use (8 GB for midrange to 24 GB for high-end), reliable power delivery and compatibility (recommended PSU wattages noted), and good factory thermal interface materials (avoid cards that need immediate repadding). Warranty coverage and manufacturer support are also treated as core functional criteria.",
+            "aesthetic_preferences": "The user favors premium, clean designs and durable finishes: dark or matte colorways (Founders black/platinum, AORUS styling, ROG Strix) and solid metal backplates. They appreciate tasteful RGB or lighting when paired with a high-quality cooler, but dislike cheaply finished or 'lite' units with visible tape, sloppy connectors, or otherwise poor assembly. Overall they prefer the look of flagship/elite designs over barebones bargain aesthetics.",
+            "purchase_preferences": "They expect transparent pricing (buying at or near MSRP), reputable sellers, and responsive manufacturer support; poor customer service negatively influences their ratings and future purchases. They value clear warranty terms and registration benefits (four-year warranties called out), clean packaging and intact connectors (complaints about taped outputs), and reliable delivery channels that avoid scalpers. They are also comfortable performing minor maintenance (repadding) but prefer to receive ready-to-use, well-built products and a straightforward returns or repair process when defects arise."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Manufacturer is one of the user's historically preferred brands or premium sub-brands (Gigabyte AORUS, NVIDIA Founders, ASUS ROG Strix, EVGA, ZOTAC, PowerColor, Sapphire) as stated in official product listing",
+                "Model belongs to a flagged high-end/premium line (AORUS, ROG Strix, Founders Edition or equivalent) as specified by the manufacturer",
+                "Manufacturer warranty and support contact information are clearly documented on the product page or manufacturer site",
+                "No prominent product documentation or reviewer consensus citing repeated poor thermal performance or poor manufacturer support for this specific model"
+            ],
+            "price_sensitivity": [
+                "Listed purchase price falls within the user's stated budget range ($1900\u2013$2100) on the chosen retail listing",
+                "Product MSRP is displayed on the product page and the listing price is at or below the documented MSRP",
+                "When listing price exceeds MSRP, the product documentation or hands-on reviews provide measurable benefits (documented superior cooling, extended warranty, or demonstrable performance uplift) that justify the premium"
+            ],
+            "rating_sensitivity": [
+                "At least two hands-on reviews provide measured memory and core temperature readings under sustained load for this specific model",
+                "Multiple user or community reports include documented real-world manufacturer support or warranty service experiences for this model or exact model family",
+                "Hands-on reviews report measured acoustic noise under load for this model (reported in dBA or comparative statements with measurement values)"
+            ],
+            "functional_requirements": [
+                "Hands-on reviews or manufacturer thermal specifications include measured memory and core temperatures under sustained load for this exact model",
+                "Measured acoustic noise levels under load are provided by reviews or manufacturer data (numeric dBA or clear measured values)",
+                "Product specifications list VRAM capacity matching high-end expectations (documented 24 GB for high-end model listings)",
+                "Product specifications include durable construction details: metal backplate listed and an anti-sag support solution described in official specs",
+                "Manufacturer recommended PSU wattage and required power connector types are documented on the product page or official spec sheet"
+            ],
+            "aesthetic_preferences": [
+                "Official product images and specifications show a dark or matte colorway as the primary finish",
+                "Product specifications list a solid metal backplate rather than a plastic or partial backplate",
+                "RGB or lighting is documented as present and software-configurable (lighting control listed in specs or manufacturer software description)",
+                "Visual inspection of official product images shows no visible signs of poor assembly (no taped outputs or unsecured connectors in manufacturer images)"
+            ],
+            "purchase_preferences": [
+                "Seller is identified as the manufacturer, an authorized reseller, or a reputable retailer on the product page",
+                "Warranty terms are documented on the product page or manufacturer site and list duration and registration benefits (four-year warranty called out if applicable)",
+                "Product listing shows clear return and RMA policy or links to manufacturer/retailer returns process",
+                "Packaging or unboxing images/specs from manufacturer or retailer show intact, properly seated connectors and no evidence of taped outputs"
+            ]
+        }
+    },
+    {
+        "user": "AEAUEDLCKVLWSVSO4RSSWV4Y2MKA",
+        "seed_product_type": "Bullet Cameras",
+        "situation": "Looking to add a reliable bullet security camera with good night vision for home surveillance.",
+        "budget_range": "around $70\u2013$100",
+        "query_type": "categorical",
+        "user_query": "want to buy outdoor surveillance cameras",
+        "user_context": {
+            "brand_preferences": "The user shows a clear affinity for Lorex as their preferred brand for primary surveillance needs: they repeatedly buy Lorex products and cite Lorex as their go-to for high-quality night vision and overall performance. They also buy from mid-tier/value brands such as Amcrest and Q-See when seeking lower-cost but serviceable alternatives. The user expresses distrust or strong dissatisfaction with Wyze (connectivity failures) and disappointment with Samsung\u2019s unit compared with Lorex; they are willing to try very low-cost brands (ZOSI) as backups when those outperform pricier options. The user is sensitive to whether sellers deliver new vs. refurbished items and penalizes brands/sellers that appear to ship used/refurbished stock as new.",
+            "price_sensitivity": "Medium sensitivity: the user balances price and quality. They are willing to pay a premium for cameras perceived as reliably better (Lorex) but frequently buys lower-cost options (Amcrest, Q-See, ZOSI) to fill out systems or as backups. They explicitly note \u201cyou get what you pay for\u201d and say they will spend more next time after poor experiences with cheap or apparently refurbished units, indicating they trade up when reliability matters.",
+            "rating_sensitivity": "Medium sensitivity: the user reads other customers\u2019 reviews and uses that feedback to guide decisions (they explicitly shopped around and followed good feedback for Q-See), but also places heavy weight on hands-on experience. Positive reviews can trigger a trial purchase, but a single bad real-world outcome (connectivity, durability, night-vision issues) will strongly influence future purchases regardless of aggregate rating.",
+            "functional_requirements": "For surveillance cameras the user consistently needs reliable night-vision performance (clear, evenly illuminated images at moderate-to-long ranges\u2014roughly 50\u2013150+ feet in practical terms), accurate true-to-life daytime color, a reasonably wide field of view (around 90\u00b0 or more), and stable, long-lived electronics that do not fail within a year. They prioritize wired/BNC/DVR compatibility (960H, 720p/4K compatibility or explicit DVR series compatibility), weatherproof housings (IP65/IP66) for outdoor use, and straightforward DIY installation with necessary power or cabling included or clearly specified. They dislike IR backscatter that turns nighttime images into \u201cblizzards\u201d (dust/pollen reflection) and therefore prefer cameras whose IR design minimizes that effect.",
+            "aesthetic_preferences": "The user favors practical, unobtrusive bullet-style cameras in neutral colors (black or white) and prefers units that produce natural daytime colors and crisp images rather than overly stylized or toy-like designs. They prefer sturdy, metal housings over thin plastic builds and value a professional, utilitarian appearance that signals durability rather than decorative features or flashy lights.",
+            "purchase_preferences": "The user prefers clear product listings that state compatibility (DVR model numbers, wired vs. wireless), included accessories (power supplies, BNC/power cables), and the item\u2019s condition (new vs. refurbished). They favor sellers offering a solid warranty and responsive support (Amcrest\u2019s 1-year warranty and support was noted positively) and dislike paying for returns or discovering undisclosed refurbished items. They value easy DIY installation, reliable fulfillment (correct model delivered), and fair return policies; when connectivity or hardware problems occur they expect timely customer service and will switch brands if support or reliability is poor."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Brand listed as Lorex",
+                "Brand listed as Amcrest or Q-See as acceptable lower-cost alternatives",
+                "Brand listed as Wyze or Samsung flagged as low trust based on connectivity/durability concerns",
+                "Brand listed as ZOSI only acceptable as backup/secondary option"
+            ],
+            "price_sensitivity": [
+                "Unit price falls within $70\u2013$100 budget",
+                "If unit price exceeds $100, listing must include a warranty of at least 1 year",
+                "Price is clearly itemized (product price separate from shipping/taxes) to allow straightforward value comparison"
+            ],
+            "rating_sensitivity": [
+                "Product reviews include multiple independent mentions of reliable night-vision performance at distances ~50\u2013150 feet",
+                "Recent reviews (within past 12 months) report no recurring connectivity failures or early electronic failures",
+                "Review sample includes hands-on comments about daytime color accuracy and IR backscatter behavior"
+            ],
+            "functional_requirements": [
+                "Night-vision specification or real-world sample demonstrating clear, evenly illuminated images at ~50\u2013150+ feet",
+                "Field of view specified as 90\u00b0 or greater",
+                "Explicit wired/DVR/BNC compatibility stated (e.g., 960H, 720p/4K, or explicit DVR model series compatibility)",
+                "Weatherproof rating specified as IP65 or IP66",
+                "Listing specifies included power/cabling or clearly documents required cabling/power for DIY installation"
+            ],
+            "aesthetic_preferences": [
+                "Form factor listed as bullet-style",
+                "Color listed as black or white",
+                "Housing material specified as metal or metal alloy",
+                "Product images or sample footage demonstrate natural daytime color reproduction rather than oversaturated or stylized colors"
+            ],
+            "purchase_preferences": [
+                "Listing explicitly states item condition as new or refurbished",
+                "Listing clearly enumerates included accessories (power supply, BNC/power cables)",
+                "Seller provides warranty details and visible support/contact information (warranty \u22651 year preferred)",
+                "Product listing specifies compatible DVR models or notes wired vs. wireless compatibility",
+                "Return policy clearly states return terms and any return shipping costs"
+            ]
+        }
+    }
+]

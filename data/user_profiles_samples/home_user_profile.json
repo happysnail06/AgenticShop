@@ -1,0 +1,245 @@
+[
+    {
+        "user": "AH7CES2UDMA2RAHG27GYKI6LMYGQ",
+        "seed_product_type": "Refrigerator Magnets",
+        "situation": "Looking to add a new state magnet to their souvenir collection.",
+        "budget_range": "around $3 to $5",
+        "query_type": "categorical",
+        "user_query": "thinking about getting a state magnet souvenir",
+        "user_context": {
+            "brand_preferences": "The user shows strong loyalty to a single, niche brand: Classic Magnets Made with Pride in the USA. Every recorded purchase is from that manufacturer and the user consistently chooses the same product line (small state souvenir magnets), indicating trust in the brand\u2019s quality, consistency, and product availability. Their repeated purchases of the same branded items suggest preference for a familiar supplier rather than exploring alternatives, and they likely value the brand\u2019s reputation for producing collectible, uniform items.",
+            "price_sensitivity": "The user appears price conscious and favors low-cost items: every purchase is an inexpensive $3.49 magnet. Their repeated buying of low-priced, single-purpose souvenirs indicates a high sensitivity to price per unit \u2014 they prefer affordable items that allow collecting many variants without large expense. However, because they keep buying identical-priced items rather than the cheapest unknown alternatives, they show a willingness to pay a small premium for consistency and known quality at that low price point.",
+            "rating_sensitivity": "The user\u2019s short, affirmative reviews (\u201cNo problems.\u201d) combined with perfect 5.0 ratings show low reliance on external ratings during decision-making. They consistently rate purchased items highly but provide minimal review detail, suggesting they purchase based on familiarity and product description rather than extensive review research. At the same time, the items they choose generally have high average ratings, indicating the user still favors products that are broadly well-reviewed but does not appear to depend heavily on reviews prior to purchase.",
+            "functional_requirements": "For these souvenir magnets the user requires small, lightweight items with reliable magnetic backing that adhere securely to refrigerators and other metal surfaces. Durability is important (flexible molded rubber, ~0.1\" thickness) so the product resists wear in a display or as a keepsake. The user also expects accurate, recognizable state shapes and consistent sizing so pieces fit together on a collector board or display; ease of handling, uniform dimensions, and clear labeling are useful functional needs.",
+            "aesthetic_preferences": "The user prefers classic souvenir styling: simple, map-shaped designs with solid, contrasting colors (examples include red, blue, yellow, beige, black) and a vintage souvenir look rather than ornate or modern graphics. They consistently select small, compact pieces that emphasize the state outline rather than busy decoration. Overall their aesthetic leans toward uniformity and collectibility\u2014items that visually match one another on a magnet board or refrigerator.",
+            "purchase_preferences": "The user favors straightforward, low-friction shopping: predictable product listings with clear dimensions and \u201cMade in USA\u201d origin labeling that reduce the need for follow-up. They prioritize consistent seller reliability and product availability so they can expand a collection over time; fast shipping and generous return policies are beneficial but not explicitly required in their reviews. Minimal engagement with seller communication in reviews suggests they prefer products that arrive as described and require little customer service interaction."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Product brand field exactly matches \"Classic Magnets Made with Pride in the USA\"",
+                "Product title or product line explicitly identifies the item as a small state souvenir magnet from the same product line",
+                "Manufacturer or seller origin is listed as USA"
+            ],
+            "price_sensitivity": [
+                "Unit price is less than or equal to $5.00",
+                "Unit price is equal to $3.49 (matches the user's repeatedly purchased price)"
+            ],
+            "rating_sensitivity": [
+                "Product average customer rating is 4.5 stars or higher"
+            ],
+            "functional_requirements": [
+                "Product material is specified as flexible molded rubber (or equivalent flexible material) in the product specifications",
+                "Magnetic backing is described in the listing (e.g., magnet type/stickiness) indicating it adheres to refrigerators or metal surfaces",
+                "Product thickness is listed as approximately 0.1 inch",
+                "Product dimensions are listed and indicate a uniform, small size appropriate for collection/display (dimensions provided for height and width)"
+            ],
+            "aesthetic_preferences": [
+                "Product images show a clear map-shaped state outline as the primary design element",
+                "Product images and description indicate use of solid, contrasting colors (no photographic or ornate multi-pattern graphics)",
+                "Product listing describes or shows a classic/vintage souvenir styling rather than modern/ornate decoration"
+            ],
+            "purchase_preferences": [
+                "Product listing includes clear dimensions in inches",
+                "Product listing explicitly states \"Made in USA\"",
+                "Seller listing shows current availability or stock status (e.g., \"in stock\") to support future repeat purchases",
+                "Listing provides estimated shipping speed or delivery window",
+                "Listing includes a stated return policy or returns information"
+            ]
+        }
+    },
+    {
+        "user": "AHXOLFWFLB5P47PATSQVJJ2OZAUQ",
+        "seed_product_type": "Lids",
+        "situation": "Needs a reliable lid that fits multiple pan sizes for everyday cooking.",
+        "budget_range": "around $10\u2013$15",
+        "query_type": "categorical",
+        "user_query": "need a new pot lid for cooking",
+        "user_context": {
+            "brand_preferences": "The user does not show strict brand loyalty but selects brands that demonstrate clear attention to fit, finish and packaging. They repeatedly tried multiple universal-lid brands to compare performance and singled out Alpha and Charles Viancin positively for fit, cleanliness and workmanship, and praised Colinda/GOMRQING for attractive, well-made mug covers. They returned or rated lower brands (M&J, Teeo, Ecolution and some generic sellers) when lids arrived dirty, smelled of chemicals, had floppy or poorly designed knobs, or did not fit properly. In short, the user favors brands that deliver precise sizing, clean presentation and durable construction, and will abandon brands that fail on those points even if the brand has other positive attributes.",
+            "price_sensitivity": "Medium sensitivity. The user purchases items across a wide price range (from single-digit cup lids up to $30 universal lids) and is willing to pay more for better quality and packaging, but will return higher-priced items if they fail on fit, smell, or workmanship. They compare multiple price tiers to find a balance of value and performance rather than always choosing the cheapest option or ignoring price entirely.",
+            "rating_sensitivity": "Medium sensitivity. The user reads product details and likely considers average ratings, but does not rely solely on star scores. They test multiple brands in practice and make returns based on hands-on issues (fit, smell, packaging cleanliness). Positive review comments about fit and packaging influenced their favorable ratings for Alpha and Charles Viancin, indicating reviews matter but personal fit and functional testing are decisive.",
+            "functional_requirements": "For lids and covers the user needs reliable, practical functionality: accurate and slightly generous sizing that actually fits common pan and bowl rims (no excessive overhang or lids that fall in), a flat silicone or gasket edge that sits flush and creates an airtight or snug seal, heat resistance for stovetop/microwave/oven use, dishwasher-safe materials, sturdy knobs/handles that do not wiggle, durable materials (food-grade silicone and/or tempered glass without porous rubber rims), and no chemical odors out of the package. For cup/mug covers they also value a knob or spoon holder and a diameter large enough to fully cover wide-mouthed mugs.",
+            "aesthetic_preferences": "The user prefers neat, attractive designs and pleasant colors for small items (cup/mug covers in attractive, not abrasive colorways and with decorative knobs received praise). They appreciate professional, clean presentation and finish \u2014 products that look well made and arrive spotless \u2014 and dislike garish or abrasive color mixes. For cookware lids the aesthetic preference is practical and understated (neutral greys/black or clean silicone) rather than flashy; visual quality is judged by tidy manufacturing and packaging as much as by color.",
+            "purchase_preferences": "The user values accurate product descriptions and reliable sizing charts, careful packaging and clean presentation on arrival, and responsive sellers/customer service (they responded positively when a brand showed professional packing). They make use of returns when items fail to meet advertised fit or quality, so clear and simple return policies matter. They expect dishwasher/microwave/stovetop compatibility to be stated, and prefer sellers who provide clear shipping and sizing details so they won\u2019t have to order multiple replacements. Fast delivery is not emphasized in reviews, but trustworthy fulfillment, good packaging and an easy return process are important."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Product listing or seller information references Alpha, Charles Viancin, Colinda/GOMRQING positively or shows evidence of similar precise fit and workmanship",
+                "Product listing demonstrates documented precise sizing, clean presentation/packaging images, and mentions durable construction methods or materials",
+                "Reviews or product photos contain no reports of dirty arrivals, chemical smells, floppy knobs, or poor fit from other buyers"
+            ],
+            "price_sensitivity": [
+                "Product price is listed between $10 and $15",
+                "Materials and features are explicitly stated (e.g., food-grade silicone, tempered glass, sturdy knob attachment) to justify the listed price",
+                "Seller or listing offers clear evidence of value (detailed material specs and workmanship descriptions) rather than relying solely on low price"
+            ],
+            "rating_sensitivity": [
+                "Product reviews include explicit, recent comments about correct fit, clean packaging on arrival, and absence of chemical odor",
+                "Average rating is accompanied by substantive review comments addressing fit, workmanship, and packaging rather than only star counts"
+            ],
+            "functional_requirements": [
+                "Listing specifies nominal lid diameter(s) or the range of compatible pan/bowl diameters so fit can be verified against common cookware",
+                "Product description states a flat silicone or gasket edge designed to sit flush for a snug or airtight seal",
+                "Listing provides heat-resistance specifications (stated stovetop, microwave, or oven temperature limits)",
+                "Listing explicitly states dishwasher-safe cleaning and non-porous materials (e.g., food-grade silicone, no porous rubber rims)",
+                "Knob/handle construction is described (e.g., screw-mounted, reinforced, or otherwise non-wobbly) or visible in close-up images showing a solid attachment"
+            ],
+            "aesthetic_preferences": [
+                "Product images and description show neat, attractive colorways or neutral tones (no abrasive/garish color mixes)",
+                "Product and packaging photos show tidy manufacturing finish (no visible mold lines, excess flash, or dirty presentation)",
+                "Cup/mug covers include a visible, well-designed knob or spoon-holder and show full coverage of a wide-mouthed mug in images"
+            ],
+            "purchase_preferences": [
+                "Product listing includes a clear sizing chart or explicit dimensional measurements for all offered sizes",
+                "Seller return policy clearly allows returns for fit, odor, or workmanship issues and describes the process",
+                "Listing provides explicit dishwasher/microwave/stovetop compatibility statements in the product details",
+                "Seller listing includes clear shipping and fulfillment information and photos or descriptions of professional, careful packaging practices"
+            ]
+        }
+    },
+    {
+        "user": "AEUDZQDVSZYCHEXQSXLB6NWQTMHA",
+        "seed_product_type": "Area Rugs",
+        "situation": "Looking to add a vintage-style area rug to enhance the living room decor.",
+        "budget_range": "around $50\u2013$70",
+        "query_type": "categorical",
+        "user_query": "need a new indoor area rug for my living room",
+        "user_context": {
+            "brand_preferences": "The user shows no exclusive brand loyalty but frequently buys from established mid-market rug brands such as Unique Loom, Loloi (and Loloi II), Nourison and smaller specialty sellers (Eleet, DII, Maples Rugs). They repeat-purchase or favor brands that combine attractive vintage/distressed looks with reliable construction (Unique Loom and Loloi appear multiple times), indicating a brand affinity based on product style and proven build rather than a single label. They respond positively to brands that clearly list materials, weave type, and care instructions and that offer a consistent look-and-feel across multiple size options.",
+            "price_sensitivity": "The user demonstrates medium price sensitivity: they regularly buy affordable to mid-priced rugs (examples range roughly $11\u2013$100) and explicitly note \u2018perfect look for the price\u2019 or \u2018can\u2019t beat the price,\u2019 but they are willing to pay more when a rug delivers the desired aged aesthetic, durability and size. Value-for-money and appearance outweigh absolute low price; they seek bargains but will spend a bit extra for the right look, construction, or size.",
+            "rating_sensitivity": "The user is moderately review-sensitive: they read and respond to product details and other shoppers\u2019 signals (average ratings are noticed) but base decisions mainly on documented construction, materials and pictured appearance. They often validate choices by checking weave, backing and care instructions rather than relying solely on star counts; they prefer items with many helpful reviews and reasonable average ratings but will still buy well-rated mid-market items that meet their functional and aesthetic needs.",
+            "functional_requirements": "For area/throw rugs the user consistently prioritizes durable construction, low-to-medium pile (easy to vacuum), tightly woven or bound edges (no fringing), and a stable backing or recommendation to use a rug pad to prevent sliding. They expect materials suited to high-traffic use (polypropylene/polyester blends, jute or cotton backing for indoor use, and washable or hose-off options for outdoor placements) and simple, practical care instructions (spot clean, vacuum without beater bar, machine or hand wash when specified). Size variety and availability in multiple dimensions is important so a rug can serve as an entry/porch/coffee-table/bedroom accent.",
+            "aesthetic_preferences": "The user repeatedly chooses rugs with an aged/distressed or vintage-overdyed appearance, muted or washed colors (beige, navy, pewter, grey, faded rust/orange) often with subtle pops of blue, teal or orange. They favor transitional, bohemian or traditional motifs\u2014medallion, geometric, floral or abstract patterns\u2014that complement wood flooring and add a laid-back focal point without overwhelming the room. They also appreciate reversible or multi-use pieces and rugs that look \u2018worn\u2019 or softly faded rather than bright, glossy new finishes.",
+            "purchase_preferences": "The user prefers clear product descriptions (materials, weave type, pile height) and explicit care instructions, and values sellers who provide multiple sizes and reliable packaging (they note and manage creases from rolled delivery). They expect reasonable delivery packaging but will manage minor presentation issues (flattening creases with weight/sun). They prioritize simple maintenance (hose-off or spot-cleanable options for outdoor use), and often purchases or recommends rug pads; they favor sellers and listings that mention non-shedding, stain resistance, and secure edging, and likely prefer flexible return/exchange policies though they haven\u2019t explicitly required one."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Product brand or seller is explicitly named on the listing and is a mid-market or specialty rug brand (e.g., Unique Loom, Loloi, Nourison, Eleet, DII, Maples Rugs)",
+                "Seller or brand listing shows at least one additional rug with a consistent vintage/distressed aesthetic across multiple size options"
+            ],
+            "price_sensitivity": [
+                "Total purchase price (including estimated shipping and taxes) is within $50\u2013$70",
+                "If total price exceeds $70, the listing includes documented materials and weave type (e.g., polypropylene, polyester, jute, cotton) and explicit construction details"
+            ],
+            "rating_sensitivity": [
+                "Average customer rating is 4.0 or higher with a minimum of 10 customer reviews",
+                "Listing contains multiple customer reviews that specifically mention construction, materials, or appearance (weave, backing, pile, or photo-confirmed look)"
+            ],
+            "functional_requirements": [
+                "Pile height is specified as low or medium (numeric pile height provided or described as low/medium)",
+                "Primary material(s) are specified and include one or more durable options for high-traffic indoor use (polypropylene, polyester, jute, or cotton)",
+                "Edge finishing is documented as tightly woven or bound (no fringe) in the product description or photos",
+                "Listing specifies backing type or recommends use of a rug pad to prevent sliding",
+                "Product is offered in multiple size options (minimum two distinct sizes) listed on the product page"
+            ],
+            "aesthetic_preferences": [
+                "Product photos and/or description explicitly describe or show an aged/distressed or vintage-overdyed appearance",
+                "Color palette in product images is muted or washed (examples include beige, navy, pewter/grey, faded rust/orange, with subtle blue/teal accents)",
+                "Pattern type is identified or visible as transitional/bohemian/traditional (medallion, geometric, floral, or abstract) that does not appear glossy or overly saturated"
+            ],
+            "purchase_preferences": [
+                "Product page includes clear, written specifications for materials, weave type, pile height, and care instructions",
+                "Listing mentions non-shedding or stain-resistant properties or provides care guidance that indicates low-maintenance cleaning (spot clean, vacuum without beater bar, machine/hand wash where applicable)",
+                "Seller or listing documents available packaging/delivery method (rolled) or provides handling notes about creases and recommended flattening",
+                "Product page clearly states the seller's return/exchange policy"
+            ]
+        }
+    },
+    {
+        "user": "AG2ANTYFLYTKP7EA2BV4RBVW4DRQ",
+        "seed_product_type": "Decorative Signs & Plaques",
+        "situation": "Looking to add authentic vintage car d\u00e9cor to their garage wall.",
+        "budget_range": "around $15-$20",
+        "query_type": "categorical",
+        "user_query": "want to buy vintage car wall signs",
+        "user_context": {
+            "brand_preferences": "This shopper shows a clear affinity for makers of vintage-style metal signs, repeatedly buying products from Desperate Enterprises and related imprint brands (Poster Discount, 4SGM) as well as branded automotive names like Dodge and Mopar. The repetition of Desperate Enterprises listings suggests brand loyalty to sellers that consistently deliver the desired look and construction for garage d\u00e9cor. They also favor recognizable automotive and tractor nameplates (Dodge, Allis-Chalmers, Massey Ferguson), indicating a preference for authentic or officially themed merchandise rather than anonymous generic d\u00e9cor.",
+            "price_sensitivity": "The user consistently purchases low-cost decorative signs in the $12\u2013$20 range, indicating strong sensitivity to modest price points and good value for money. They prioritize items that match their budget while still delivering the desired appearance and build quality, so they are cost-conscious but not strictly bargain-hunting for the absolute cheapest item\u2014they will pay typical budget-prices for a product that meets aesthetic and quality expectations.",
+            "rating_sensitivity": "The buyer tends to choose products with solid average ratings (many items here range from about 4.4 to 4.9 stars), but their own reviews emphasize look and fit for purpose rather than citing reviews as the deciding factor. This pattern indicates medium review sensitivity: they take ratings into account as a reassurance of quality, yet final decisions are driven more by imagery, theme, and perceived craftsmanship than by ratings alone.",
+            "functional_requirements": "For this category the user expects durable, wall-mountable metal/tin signs roughly in the 12 x 16 inch size range, with pre-drilled holes or easy hanging options and folded/rolled edges for safety. They value signs that use quality enamel or durable printing so colors remain vivid and resist wear, and prefer lightweight, easy-to-hang pieces suitable for garage walls. Core needs are straightforward: authentic themed imagery (automotive/tractor/gasoline logos), stable mounting, and durable printed metal construction.",
+            "aesthetic_preferences": "The shopper consistently prefers vintage, retro and distressed aesthetics with vivid, saturated colors and nostalgic automotive or farm machinery themes (Hot Rods, Dodge Charger, Hemi engine, Phillips 66, Texaco, tractors). They like rectangular tin signs roughly 12\u201316 inches in dimension with aged/distressed finishes and bold graphics that stand out on a garage wall. Repeated comments praising color vibrancy and distressed coloring show a strong taste for authentic-looking retro patina rather than modern minimalist designs.",
+            "purchase_preferences": "The user values reliable sellers who deliver consistent product appearance and safe packaging; listings that mention quick, protective shipping and pre-drilled holes for easy installation are favored. They appear satisfied with standard budget shipping speed and straightforward transactions, expect accurate imagery and descriptions, and frequently recommends products\u2014implying good tolerance for standard return policies and a preference for sellers with a track record of dependable fulfillment. Clear product details (brand, material, size) and visible seller reputation influence repeat purchases."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Listing brand or seller is Desperate Enterprises, Poster Discount, 4SGM, Dodge, Mopar, Allis\u2011Chalmers, or Massey Ferguson (brand/seller name appears in product listing)",
+                "Product is explicitly branded or licensed with a recognizable automotive or tractor name (e.g., Dodge, Mopar, Phillips 66, Texaco, Allis\u2011Chalmers, Massey Ferguson)"
+            ],
+            "price_sensitivity": [
+                "Total price charged (item price plus shipping) falls between $12.00 and $20.00",
+                "Listed item price is within the user's typical budget range of $15.00\u2013$20.00 (price displayed on product page)"
+            ],
+            "rating_sensitivity": [
+                "Product average rating is 4.4 stars or higher as shown on the listing"
+            ],
+            "functional_requirements": [
+                "Material listed as metal or tin (material specified in product details)",
+                "Product dimensions listed within the ~12\u00d716 inch range (both height and width documented in the listing)",
+                "Listing explicitly indicates pre\u2011drilled mounting holes or includes hanging hardware (mounting method described)",
+                "Edge construction described as folded, rolled, hemmed, or otherwise finished for safety (edge treatment stated)",
+                "Print or finish described as enamel, durable printing, UV\u2011resistant, or similarly durable printing method (print/finish specified)"
+            ],
+            "aesthetic_preferences": [
+                "Listing description or title includes terms such as vintage, retro, distressed, or patina to indicate aged/distressed finish",
+                "Product theme or imagery clearly references automotive or farm machinery subjects (Hot Rods, Dodge/Charger/Hemi, Phillips 66, Texaco, tractors, etc., shown or stated)",
+                "Product shape is rectangular and listing dimensions fall in the 12\u201316 inch size range (shape and dimensions documented)",
+                "Product images or description emphasize vivid, saturated colors or bold graphics (color quality described or clearly visible in photos)"
+            ],
+            "purchase_preferences": [
+                "Listing notes protective packaging or secure shipping practices (packaging/shipping described)",
+                "Product listing includes multiple clear photos and accurate measurements to verify appearance and fit for purpose (photos and dimensions provided)",
+                "Seller provides a stated return or refund policy in the listing or seller page (return policy documented)",
+                "Seller has a track record of consistent fulfillment implied by repeat branded listings or visible seller reputation (seller identity and history shown in listing)"
+            ]
+        }
+    },
+    {
+        "user": "AG7FJZE5AX6ESELOMYHZPK5IHZNQ",
+        "seed_product_type": "Wreaths",
+        "situation": "Looking for a festive wreath to decorate the front door for Easter.",
+        "budget_range": "around $8\u2013$15",
+        "query_type": "categorical",
+        "user_query": "need a seasonal wreath for front door decoration",
+        "user_context": {
+            "brand_preferences": "The user shows little brand loyalty and instead selects from many small or niche home-decor brands (Toodour, UEmoh, PROWREATH, 10Leccion, Tisuokae, OVEELER, Biewoos, Carselage, Uptown Styling, BOMMETER). They repeatedly buy from varied sellers rather than sticking to a single manufacturer, indicating brand openness. When a brand communicates craftsmanship, clear quality commitments (e.g., money-back guarantees or responsive customer service) the user notes and values those claims, but they do not require a familiar marquee brand before purchasing.",
+            "price_sensitivity": "The user demonstrates medium price sensitivity: they frequently buy affordably priced wreaths (examples around $9\u2013$26) but will spend more (e.g., ~$37) if the product clearly offers higher perceived quality or features. They repeatedly mention \u201cgood value\u201d and durability as purchase drivers, indicating they balance cost with longevity and functionality rather than seeking only the cheapest option or ignoring price entirely.",
+            "rating_sensitivity": "The user displays medium review sensitivity: they read and weigh ratings and reviews but do not rely on star scores alone. Several of their purchases had mixed average ratings (including a 3.2 item) yet they still bought and rated them 5 stars based on personal assessment of build and appearance. In short, ratings are one factor among product descriptions, photos, and perceived construction quality when deciding.",
+            "functional_requirements": "For wreaths the user consistently requires sturdy construction, a reliable mounting solution (sturdy hanger or loop), and weather-appropriate materials for indoor/outdoor use. They expect life-like foliage or convincing seasonal elements, a full/plump appearance, and low maintenance (no watering or special care). For lighted options they prefer battery-operated LEDs (AA/AAA/CR2 battery compatibility), optional timer functions, and a secure battery case. They also value included storage or protective packaging for reuse year-to-year.",
+            "aesthetic_preferences": "Visually the user prefers realistic, tasteful seasonal decor: natural eucalyptus/green wreaths, classic evergreen with pinecones and berries for winter, pastel and bunny motifs for Easter, and warm autumnal oranges/yellows for fall. They like full, substantial wreaths with balanced color (not gaudy), rounded shapes, and occasional novelty elements (bunny ears or gnomes) as long as the item still looks well-made and not cheap. Warm white LED lighting is favored when present.",
+            "purchase_preferences": "The user favors sellers who provide sturdy packaging (boxes for safe shipping and storage), included hanging hardware, clear product dimensions (sizes ~12\u201322 inches noted), and responsive customer service or satisfaction guarantees. They value items that arrive ready-to-hang and that include storage or hooks; return-friendly policies and prompt seller communication are appreciated. Fast delivery is desirable but secondary to receiving a well-packed, durable product that can be reused over multiple seasons."
+        },
+        "check_list": {
+            "brand_preferences": [
+                "Brand name matches one of the small/niche vendors listed in the user context (Toodour, UEmoh, PROWREATH, 10Leccion, Tisuokae, OVEELER, Biewoos, Carselage, Uptown Styling, BOMMETER)",
+                "Product listing explicitly states a quality commitment such as a money-back guarantee or clear customer-service/contact policy"
+            ],
+            "price_sensitivity": [
+                "Item price is equal to or greater than $8 and equal to or less than $15 (item price before taxes and shipping)",
+                "Product description or specifications explicitly lists durable materials or construction details (e.g., metal/wire frame, UV-resistant foliage, reinforced branches) that justify perceived higher value"
+            ],
+            "rating_sensitivity": [
+                "Product average star rating is at least 3.0",
+                "At least one customer review includes a user photo and comments specifically addressing appearance or build quality (e.g., fullness, realistic foliage, sturdiness)"
+            ],
+            "functional_requirements": [
+                "Listing specifies construction materials or structure indicating sturdy construction (e.g., metal/wire frame, reinforced backing, or the word 'sturdy' in specifications)",
+                "Listing explicitly includes or describes a mounting solution (e.g., built-in hanger, sturdy loop, or included hanging hardware)",
+                "Listing states indoor/outdoor suitability or lists weather-resistant/UV-resistant materials for outdoor use",
+                "Listing includes photos showing a full/plump frontal appearance (one clear front-view image where foliage density is visible)",
+                "If lights are included, the listing specifies battery operation with supported battery types (AA, AAA, or CR2), describes the battery case, or states an optional timer function"
+            ],
+            "aesthetic_preferences": [
+                "Primary colors or materials listed include natural greens/eucalyptus tones or pastel Easter colors (e.g., pink, soft yellow) in the product description",
+                "Product images show a rounded, balanced arrangement of elements (front-view image with even distribution of foliage and decorative elements)",
+                "If decorative novelty elements are present (bunny ears, eggs, gnomes), the listing images and description show craftsmanship detail (close-up image or material description demonstrating non-cheap appearance)",
+                "If lights are present, the listing specifies warm white LED color"
+            ],
+            "purchase_preferences": [
+                "Listing provides a clear diameter/size measurement within the user's preferred range (12 to 22 inches)",
+                "Listing states the item arrives ready-to-hang or explicitly includes hanging hardware in the package contents",
+                "Listing or seller information states packaging type includes a protective box or storage-friendly packaging for reuse",
+                "Listing documents a return policy or seller satisfaction guarantee and provides seller contact information"
+            ]
+        }
+    }
+]

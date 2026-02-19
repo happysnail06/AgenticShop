@@ -4,7 +4,7 @@ User Profile Organization:
     Organize generated user profiles by domain and query type.
     
     Usage example:
-        python src/benchmark_construction/4_organize_user_profile.py --domain clothing --samples 3
+        python src/benchmark_construction/4_organize_user_profile.py --domain clothing --samples 1
         
     Domains:
         grocery: Grocery and Gourmet Food (creates 3 files)
@@ -42,7 +42,7 @@ def get_project_paths():
     project_root = os.path.abspath(os.path.join(script_dir, "..", ".."))
     return {
         "project_root": project_root,
-        "input_dir": os.path.join(project_root, "data", "_user_data", "_user_checklist"),
+        "input_dir": os.path.join(project_root, "data", "user_staging", "checklist"),
         "output_dir": os.path.join(project_root, "data", "user_profiles")
     }
 

@@ -51,8 +51,8 @@ def get_project_paths():
     return {
         "project_root": project_root,
         "env_path": os.path.join(project_root, ".env.local"),
-        "input_dir": os.path.join(project_root, "data", "_user_data", "_user_raw"),
-        "output_dir": os.path.join(project_root, "data", "_user_data", "_user_context")
+        "input_dir": os.path.join(project_root, "data", "user_raw"),
+        "output_dir": os.path.join(project_root, "data", "user_staging", "context")
     }
 
 async def generate_user_context(runnable, prompt: str) -> UserContext:

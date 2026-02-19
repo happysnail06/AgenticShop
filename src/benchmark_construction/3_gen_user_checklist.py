@@ -65,8 +65,8 @@ def get_project_paths():
     return {
         "project_root": project_root,
         "env_path": os.path.join(project_root, ".env.local"),
-        "user_query_dir": os.path.join(project_root, "data", "_user_data", "_user_query"),
-        "output_dir": os.path.join(project_root, "data", "_user_data", "_user_checklist")
+        "user_query_dir": os.path.join(project_root, "data", "user_staging", "query"),
+        "output_dir": os.path.join(project_root, "data", "user_staging", "checklist")
     }
 
 def argparser():

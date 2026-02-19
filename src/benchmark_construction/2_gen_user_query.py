@@ -62,9 +62,9 @@ def get_project_paths():
     return {
         "project_root": project_root,
         "env_path": os.path.join(project_root, ".env.local"),
-        "raw_data_dir": os.path.join(project_root, "data", "_user_data", "_user_raw"),
-        "user_context_dir": os.path.join(project_root, "data", "_user_data", "_user_context"),
-        "output_dir": os.path.join(project_root, "data", "_user_data", "_user_query")
+        "raw_data_dir": os.path.join(project_root, "data", "user_raw"),
+        "user_context_dir": os.path.join(project_root, "data", "user_staging", "context"),
+        "output_dir": os.path.join(project_root, "data", "user_staging", "query")
     }
 
 async def generate_user_query(runnable, prompt: str) -> UserQuery:

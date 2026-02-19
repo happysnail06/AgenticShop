@@ -4,7 +4,7 @@ This is code repository for AgenticShop: Benchmarking Agentic Product Curation f
 
 📄 **Paper Link**: [**AgenticShop**](https://drive.google.com/file/d/1ZrK7A7az16I9bTVAnrXueytwcTggH48g/view?usp=sharing)
 
-🎉 **Our paper has been accepted Accepted at [The Web Conference 2026](https://www2026.thewebconf.org/index.html)**
+🎉 **Our paper has been Accepted at [The Web Conference 2026](https://www2026.thewebconf.org/index.html)**
 
 ## Introduction
 
@@ -30,6 +30,9 @@ python src/benchmark_construction/2_gen_user_query.py --domain clothing --sample
 
 # Step 3: Build evaluation checklists tailored to each user's preferences
 python src/benchmark_construction/3_gen_user_checklist.py --domain clothing --samples 1
+
+# Step 4: Organize outputs into final user profiles
+python src/benchmark_construction/4_organize_user_profile.py --domain clothing
 ```
 
 **Benchmark Evaluation**: Run the evaluation pipeline to test different models and approaches against the constructed benchmark, measuring their performance in product curation tasks.
@@ -75,7 +78,7 @@ cp env.example .env.local
 
 ## Data
 
-Sample user profile data is available in `data/user_profiles/` to help you get started with the benchmark. This includes:
+Sample user profile data is available in `data/user_profiles_samples/` to help you get started with the benchmark. This includes:
 
 - Pre-generated user contexts and queries
 - Sample evaluation checklists
