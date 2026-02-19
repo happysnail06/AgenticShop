@@ -263,7 +263,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--category', required=True, help='One of: grocery, clothing, electronics, home, open')
     parser.add_argument('--variant', required=False, help='For grocery category: attribute_specific, brand_categorical, or explicit')
     parser.add_argument('--user-id', required=False, help='If provided, process only this user (suffix without "user_")')
-    parser.add_argument('--base-path', default='/work/AgenticShop/eval_results', help='Base path to evaluation results root')
+    default_base = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'eval_results')
+    parser.add_argument('--base-path', default=default_base, help='Base path to evaluation results root')
     parser.add_argument('--output', required=False, help='Optional explicit output path (only when processing a single user)')
     return parser.parse_args()
 

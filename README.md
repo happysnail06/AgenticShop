@@ -26,6 +26,7 @@ conda activate agenticshop
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
+playwright install chromium
 ```
 
 ### 3. Environment Configuration
@@ -53,15 +54,19 @@ Sample user profile data is available in `data/user_profiles_samples/` to help y
 
 ## Project Structure
 - `src/benchmark_construction/` - Scripts for generating benchmark data
+- `src/search_llms_scripts/` - Example product curation scripts (GPT search provided as reference)
+- `product_curation_artifacts/` - Inputs and outputs for product curation
 - `src/benchmark_evaluation/` - Evaluation framework and modules
-- `eval_inputs/` - Input data for evaluation
 - `eval_results/` - Evaluation outputs and results
 
 ## Pipeline
-The workflow consists of two main phases:
+The workflow consists of three main phases:
 
 
-**Benchmark Construction**: Generate user contexts, queries, and evaluation checklists that form the foundation of the benchmark dataset.
+**Phase 1 — Benchmark Construction**: Generate user contexts, queries, and evaluation checklists that form the foundation of the benchmark dataset.
+
+- **Input**: `data/user_raw/` (raw purchase histories)
+- **Output**: `data/user_profiles/{domain}_user_profile.json` (final user profiles with queries and checklists)
 
 ```bash
 # Step 1: Generate diverse user contexts with shopping preferences and behaviors
@@ -79,7 +84,27 @@ python src/benchmark_construction/4_organize_user_profile.py --domain clothing
 
 The generated user profiles — including shopping queries — serve as inputs to agentic systems, which curate product recommendations. The resulting product links are then evaluated against the user's checklist.
 
-**Benchmark Evaluation**: Run the evaluation pipeline to test different models and approaches against the constructed benchmark, measuring their performance in product curation tasks.
+**Phase 2 — Product Curation**: Prepare search inputs from user profiles and run agentic systems to curate products. We provide a GPT search script as an example — any agentic system can be used in its place.
+
+- **Input**: `data/user_profiles/{domain}_user_profile.json`
+- **Output**:
+  - `product_curation_artifacts/inputs/{category}_search_input.json` (search prompts and evaluation checklists)
+  - `product_curation_artifacts/{model_type}/{model_name}/{category}_search_input_output.json` (curated product URLs)
+
+```bash
+# Step 1: Build search prompts from user profiles
+python src/search_llms_scripts/prepare_search_input.py data/user_profiles/clothing_user_profile.json
+
+# Step 2: Run search LLM to curate products (example using GPT)
+python src/search_llms_scripts/gpt_search.py --category clothing --samples 1
+```
+
+**Phase 3 — Benchmark Evaluation**: Run the evaluation pipeline to extract product information and score against user checklists.
+
+- **Input**: `product_curation_artifacts/` (user checklists and curated product URLs)
+- **Output**: `eval_results/{model_type}/{model_name}/{category}/user_{id}/result_{N}/` containing:
+  - `extraction_result.json` — extracted product attributes
+  - `evaluation_result.json` — checklist satisfaction scores across 6 dimensions
 
 ```bash
 # Run complete evaluation pipeline with example parameters:
