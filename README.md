@@ -89,7 +89,7 @@ Prepare search inputs from user profiles and run agentic systems to curate produ
 |---|---|
 | **Input** | `data/user_profiles/{domain}_user_profile.json` |
 | **Output** | `product_curation_artifacts/inputs/{category}_search_input.json` |
-| **Output** | `product_curation_artifacts/{model_type}/{model_name}/{category}_search_input_output.json` |
+| **Output** | `product_curation_artifacts/{model_type}/{model_name}/{category}_search_output.json` |
 
 ```bash
 python src/search_llms_scripts/prepare_search_input.py data/user_profiles/clothing_user_profile.json

@@ -143,7 +143,8 @@ async def main():
     base_name = os.path.splitext(os.path.basename(input_path))[0]
     output_dir = paths["output_dir"]
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, f"{base_name}_output.json")
+    output_name = base_name.replace("_search_input", "_search_output")
+    output_path = os.path.join(output_dir, f"{output_name}.json")
 
     # Load existing results to skip completed users
     completed = load_existing_results(output_path)

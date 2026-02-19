@@ -79,7 +79,7 @@ def build_paths(project_root: str, model_type: str, model_name: str, category_ke
     """
     root = Path(project_root)
     search_input_file = SEARCH_INPUT_MAPPING[category_key]
-    search_output_file = search_input_file.replace('.json', '_output.json')
+    search_output_file = search_input_file.replace('_search_input.json', '_search_output.json')
 
     # Search results from product curation
     search_output_path = root / "product_curation_artifacts" / model_type / model_name / search_output_file
